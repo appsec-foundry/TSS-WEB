@@ -7,7 +7,7 @@ Modern web browsers support several additional client-side protection mechanisms
 | Response Header  | Value |
 | ------------- | ------------- | 
 | Content-Type  | `...; charset=utf-8`  |  
-| Strict-Transport-Security[^1]  | `max-age=10886400; includeSubDomains; preload`  | 
+| Strict-Transport-Security[^1]  | `max-age=63072000; includeSubDomains; preload`  | 
 | X-Frame-Options  | `SAMEORIGIN`  | 
 | Referrer Policy | `same-origin` |
 | X-Content-Type-Options[^2] | `nosniff` |
